@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .card {
+            width: 250px;
+            height: 350px;
+            background-color: #779a98;
+            border-radius: 15px;
+            box-shadow: 0 4px 8px rgba(2, 2, 2, 0.1);
+             padding: 20px;
+            margin: 20px auto;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            font-family: 'Arial', sans-serif;
+            color: #ffffff;
+            transition: transform 0.3s ease, box-shadow 0.3s ease;
+        }
+
+        .card:hover {
+            transform: translateY(-10px);
+            box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+        }
+        .create {
+    padding: 10px 20px;
+    background-color: #4CAF50;
+    color: white;
+    font-size: 16px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.create:hover {
+    background-color: #45a049;
+}
+.delete-btn {
+    padding: 10px 20px;
+    background-color: #f53629;
+    color: white;
+    font-size: 16px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.delete-btn:hover {
+    background-color: #e53935;
+}
+
+    </style>
+</head>
+
+<body>
+    <div id="container">
+        <button class="create" onclick="cardGenerator()">create</button>
+
+          
+
+
+
+
+
+
+
+
+    </div>
+    <script src="cardgenerator.js"></script>
+</body>
+
+</html>
